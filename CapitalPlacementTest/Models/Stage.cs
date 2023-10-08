@@ -15,5 +15,6 @@ namespace CapitalPlacementTest.Models
         public Guid ProgramDetailId { get; set; }
         [ForeignKey(nameof(ProgramDetailId))]
         public ProgramDetail ProgramDetail { get; set; }
+        public virtual VideoInterviewOption VideoInterviewOptions { get; set; }
     }
 }

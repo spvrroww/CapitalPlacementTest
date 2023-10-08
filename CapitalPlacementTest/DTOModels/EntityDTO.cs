@@ -5,12 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapitalPlacementTest.Models
+namespace CapitalPlacementTest.DTOModels
 {
-    public class Entity
+    public class EntityDTO
     {
-        [Key]
         public Guid Id { get; set; }
-      
+    
     }
 }
