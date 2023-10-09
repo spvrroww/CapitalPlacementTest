@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapitalPlacementTest.DTOModels
+namespace CapitalPlacementTest.Common
 {
-    internal class VideoInterviewOptionsDTO
+    internal class SD
     {
     }
 }

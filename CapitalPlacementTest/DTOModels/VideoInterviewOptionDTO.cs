@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapitalPlacementTest.Models
+namespace CapitalPlacementTest.DTOModels
 {
-    public class VideoInterviewOption : Entity
+    public class VideoInterviewOptionDTO : EntityDTO
     {
         public string Question { get; set; }
         public string AdditionalInformation { get; set; }
@@ -15,7 +14,5 @@ namespace CapitalPlacementTest.Models
         public string MaxDurationUnit { get; set; }
         public string DeadlineInDays { get; set; }
         public Guid StageId { get; set; }
-        [ForeignKey(nameof(StageId))]
-        public virtual Stage Stage { get; set; }
     }
 }

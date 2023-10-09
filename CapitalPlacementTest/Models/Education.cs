@@ -18,6 +18,6 @@ namespace CapitalPlacementTest.Models
         public bool IsCurrentPlaceOfStudy { get; set; }
         public Guid ApplicationFormId { get; set; }
         [ForeignKey(nameof(ApplicationFormId))]
-        public ApplicationForm ApplicationForm { get; set; }
+        public virtual ApplicationForm ApplicationForm { get; set; }
     }
 }

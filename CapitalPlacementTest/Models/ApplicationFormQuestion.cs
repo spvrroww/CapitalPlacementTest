@@ -16,7 +16,7 @@ namespace CapitalPlacementTest.Models
         public bool IsInternal { get; set; } = false;
         [ForeignKey(nameof(ApplicationFormId))]
         public virtual ApplicationForm ApplicationForm { get; set; }
-        public ICollection<Choice> Choices { get; set; }
+        public virtual ICollection<Choice> Choices { get; set; }
         
 
     }

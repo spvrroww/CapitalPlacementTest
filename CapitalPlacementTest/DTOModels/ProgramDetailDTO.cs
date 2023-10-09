@@ -10,7 +10,7 @@ namespace CapitalPlacementTest.DTOModels
     public class ProgramDetailDTO : EntityDTO
     {
         [Required]
-        public string Title { get; set; }
+        public string Title { get; set; } 
         public string Summary { get; set; }
         [Required]
         public string Description { get; set; }

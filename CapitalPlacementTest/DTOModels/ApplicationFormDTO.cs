@@ -9,5 +9,6 @@ namespace CapitalPlacementTest.DTOModels
     public class ApplicationFormDTO : EntityDTO
     {
         public string ImageUrl { get; set; }
+        public List<ApplicationFormQuestionDTO> ApplicationFormQuestions { get; set; }
     }
 }

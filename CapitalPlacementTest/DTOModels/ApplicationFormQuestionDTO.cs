@@ -13,5 +13,6 @@ namespace CapitalPlacementTest.DTOModels
         public Guid ApplicationFormId { get; set; }
         public bool IsMandatory { get; set; } = false;
         public bool IsInternal { get; set; } = false;
+        public List<ChoiceDTO> Choices { get; set; }
     }
 }
